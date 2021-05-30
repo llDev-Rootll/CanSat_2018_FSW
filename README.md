@@ -17,10 +17,7 @@ containing electronics, egg and a detachable heat shield**.
    
  - The aero-braking heat shield shall protect the
    probe until deployment.
-   
- - The aero-braking heat shield shall be
-   released at 300 meters and the probe shall deploy a parachute.
-   
+      
  - The aero-braking heat shield shall be
    released at 300 meters and the probe shall deploy a parachute.
    
