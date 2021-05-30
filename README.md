@@ -5,7 +5,7 @@ This repository outlines the flight software developed by [Team Sammard](http://
 *  [Introduction](#introduction)
 *  [Design](#design)
 *  [Flight Software](#flight-software)
-*  [Results](#results)
+*  [Result](#result)
 ## Introduction
 The problem statement for the year was as follows-
 
@@ -36,7 +36,7 @@ containing electronics, egg and a detachable heat shield**.
 *Fig 1 :  System Concept of Operations*
 
 ## Design
-The probe on which the flight software is designed to be implemented is shown below :
+The probe on which the flight software is designed to be implemented is shown below. The design and development of the other various subsystems will not be discussed here as it is beyond the scope of this repository.
 
 <img alt="3d_render" src="assets/3D_render.PNG" width="75%" />
 
