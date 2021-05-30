@@ -1,5 +1,5 @@
 # Flight Software for the annual CanSat Competition 2018
-This repository outlines the flight software developed by [Team Sammard](http://teamsammard.in/) for the [CanSat Competition](http://www.cansatcompetition.com/) 2018, an annual aerospace student design-build-launch competition organized by The [American Astronautical Society (AAS)](http://astronautical.org/) and [NASA Goddard](https://www.nasa.gov/centers/goddard/home/index.html) and [U.S. Naval Research Laboratory](http://www.nrl.navy.mil/) among others.
+This repository outlines the flight software developed by [Team Sammard](http://teamsammard.in/) for the [CanSat Competition](http://www.cansatcompetition.com/) 2018, an annual aerospace student design-build-launch competition organized by The [American Astronautical Society (AAS)](http://astronautical.org/), [NASA Goddard](https://www.nasa.gov/centers/goddard/home/index.html) and [U.S. Naval Research Laboratory](http://www.nrl.navy.mil/) among others.
 ## Table of contents
 
 *  [Introduction](#introduction)
