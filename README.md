@@ -1,5 +1,5 @@
 # Flight Software for the annual CanSat Competition 2018
-This repository outlines the flight software developed by [Team Sammard](http://teamsammard.in/) for the [CanSat Competition](http://www.cansatcompetition.com/) 2018, an annual aerospace student design-build-launch competition organized by The [American Astronautical Society (AAS)](http://astronautical.org/) and [NASA Goddard](https://www.nasa.gov/centers/goddard/home/index.html) among others.
+This repository outlines the flight software developed by [Team Sammard](http://teamsammard.in/) for the [CanSat Competition](http://www.cansatcompetition.com/) 2018, an annual aerospace student design-build-launch competition organized by The [American Astronautical Society (AAS)](http://astronautical.org/) and [NASA Goddard](https://www.nasa.gov/centers/goddard/home/index.html) and [U.S. Naval Research Laboratory](http://www.nrl.navy.mil/) among others.
 ## Table of contents
 
 *  [Introduction](#introduction)
@@ -17,7 +17,10 @@ containing electronics, egg and a detachable heat shield**.
    
  - The aero-braking heat shield shall protect the
    probe until deployment.
-      
+   
+ - The aero-braking heat shield shall be
+   released at 300 meters and the probe shall deploy a parachute.
+   
  - The aero-braking heat shield shall be
    released at 300 meters and the probe shall deploy a parachute.
    
@@ -28,28 +31,28 @@ containing electronics, egg and a detachable heat shield**.
 
 
 
-<img alt="conops" src="assets/conops.PNG" width="100%" />
+<img alt="conops" src="assets/conops.PNG" width="75%" />
 
 *Fig 1 :  System Concept of Operations*
 
 ## Design
-The probe on which the flight software is designed to be implemented on is shown below. The design and development of the various other systems of the probe shall not be discussed here as it is beyond the scope of this repository.
+The probe on which the flight software is designed to be implemented is shown below :
 
-<img alt="3d_render" src="assets/3D_render.PNG" width="100%" />
+<img alt="3d_render" src="assets/3D_render.PNG" width="75%" />
 
 *Fig 2 : 3D Render of the probe*
 
 ## Flight Software
 The flight software was written for an Atmel ATmega328p on a nano breakout board. The basic architecture of the electronics interfaced with the microcontroller is shown below.
 
-<img alt="system_arch" src="assets/system_arch.PNG" width="100%" />
+<img alt="system_arch" src="assets/system_arch.PNG" width="75%" />
 
 *Fig 3 : Electronics Overview*
 
-The the flight software was designed to read the real-time data from the GPS, IMU, air & temperature sensor, power bus voltage sensor and output the parsed data into the Serial Bus which is transmitted to the Ground Control Station (GCS) via a Xbee S2C module at a fixed rate of 1Hz. Additionally, it also uses the gathered sensor subsystem data to determine various states of the mission, thereby deploying passive control surfaces for self-orientation during descent, ejecting the heat shield and deploying a parachute for safe landing.
+The the flight software was designed to read the real-time data from the GPS, IMU, air & temperature sensor, power bus voltage sensor and output the parsed data into the Serial Bus which is transmitted to the Ground Control Station (GCS) via a Xbee S2C module at a fixed rate of 1Hz. Additionally, it also uses the gathered sensor subsystem data to determine various states of the mission, thereby deploying passive control surfaced for self-orientation during descent, ejecting the heat shield and deploying a parachute for safe landing.
 The state diagram is showcased below :
 
-<img alt="state" src="assets/state.PNG" width="100%" />
+<img alt="state" src="assets/state.PNG" width="75%" />
 
 *Fig 4 : State Diagram*
 
