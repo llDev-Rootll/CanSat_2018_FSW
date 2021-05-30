@@ -4,12 +4,8 @@ This repository outlines the flight software developed by [Team Sammard](http://
 
 *  [Introduction](#introduction)
 *  [Design](#design)
-*  [Supported models and frameworks](#supported-models-and-frameworks)
-*  [Setup](#setup)
-* [Prerequisites](#prerequisites)
-* [Demo](#demo)
-* [Additional Details](#additional-details)
-
+*  [Flight Software](#flight-software)
+*  [Result](#result)
 ## Introduction
 The problem statement for the year was as follows-
 
