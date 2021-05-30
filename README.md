@@ -33,7 +33,7 @@ containing electronics, egg and a detachable heat shield**.
 *Fig 1 :  System Concept of Operations*
 
 ## Design
-The probe on which the flight software is designed to be implemented is shown below :
+The probe on which the flight software is designed to be implemented on is shown below. The design and development of the various other systems of the probe shall not be discussed here as it is beyond the scope of this repository.
 
 <img alt="3d_render" src="assets/3D_render.PNG" width="75%" />
 
