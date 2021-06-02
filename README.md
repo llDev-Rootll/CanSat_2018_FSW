@@ -49,7 +49,7 @@ The flight software was written for an Atmel ATmega328p on a nano breakout board
 
 *Fig 3 : Electronics Overview*
 
-The the flight software was designed to read the real-time data from the GPS, IMU, air & temperature sensor, power bus voltage sensor and output the parsed data into the Serial Bus which is transmitted to the Ground Control Station (GCS) via a Xbee S2C module at a fixed rate of 1Hz. Additionally, it also uses the gathered sensor subsystem data to determine various states of the mission, thereby deploying passive control surfaced for self-orientation during descent, ejecting the heat shield and deploying a parachute for safe landing.
+The the flight software was designed to read the real-time data from the GPS, IMU, air & temperature sensor, power bus voltage sensor and output the parsed data into the Serial Bus which is transmitted to the Ground Control Station (GCS) via a Xbee S2C module at a fixed rate of 1Hz. Additionally, it also uses the gathered sensor subsystem data to determine various states of the mission, thereby deploying passive control surfaces for self-orientation during descent, ejecting the heat shield and deploying a parachute for safe landing.
 The state diagram is showcased below :
 
 <img alt="state" src="assets/state.PNG" width="75%" />
